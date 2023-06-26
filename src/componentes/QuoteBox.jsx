@@ -3,20 +3,20 @@ import '../estilos/QuoteBox.css'
 
 
 
-function  QuoteBox({quote,CambiarFrase}) {
+function  QuoteBox({quote,CambiarFrase,actColor}) {
 
 return(
  
 <div id="quote-box">
-  <div className="cont-frase">
-     <h2 id="text"  ><strong>"</strong> {quote.frase}</h2>
+  <div className="cont-frase" >
+     <h2 id="text" style={{color:actColor}} ><strong>"</strong> {quote.frase}</h2>
   </div>
-  <div className="cont-autor">
+  <div className="cont-autor" style={{color:actColor}}>
       <h4 id="author"><strong> - </strong>{quote.autor}</h4>
   </div>
   <div className="cont-boton">
-       <a href="twitter.com/intent/tweet"id="tweet-quote" target="_blank"> Retweet</a>
-  <button id="new-quote" 
+       <a href="twitter.com/intent/tweet"id="tweet-quote" target="_blank" style={{backgroundColor:actColor}}> Retweet</a>
+  <button id="new-quote" style={{backgroundColor:actColor}}
     onClick={CambiarFrase}>Nueva frase</button>
   </div>
   </div>);
