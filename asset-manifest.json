@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maquina-aleatoria/static/css/main.366b2775.css",
+    "main.js": "/maquina-aleatoria/static/js/main.47bba294.js",
+    "index.html": "/maquina-aleatoria/index.html",
+    "main.366b2775.css.map": "/maquina-aleatoria/static/css/main.366b2775.css.map",
+    "main.47bba294.js.map": "/maquina-aleatoria/static/js/main.47bba294.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.366b2775.css",
+    "static/js/main.47bba294.js"
+  ]
+}
