@@ -1,5 +1,10 @@
 import React from "react";
-import '../estilos/QuoteBox.css'
+import '../estilos/QuoteBox.css';
+import {ImTwitter} from 'react-icons/im'
+
+
+
+
 
 
 
@@ -15,7 +20,7 @@ return(
       <h4 id="author"><strong> - </strong>{quote.autor}</h4>
   </div>
   <div className="cont-boton">
-       <a href="twitter.com/intent/tweet"id="tweet-quote" target="_blank" style={{backgroundColor:actColor}}> Retweet</a>
+       <a href="twitter.com/intent/tweet"id="tweet-quote" target="_blank" style={{backgroundColor:actColor}}><ImTwitter /> </a>
   <button id="new-quote" style={{backgroundColor:actColor}}
     onClick={CambiarFrase}>Nueva frase</button>
   </div>
