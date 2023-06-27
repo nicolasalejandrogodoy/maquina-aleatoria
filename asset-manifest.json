@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maquina-aleatoria/static/css/main.c1ce3ff8.css",
-    "main.js": "/maquina-aleatoria/static/js/main.629a1dba.js",
+    "main.js": "/maquina-aleatoria/static/js/main.f0c32ac4.js",
     "index.html": "/maquina-aleatoria/index.html",
     "main.c1ce3ff8.css.map": "/maquina-aleatoria/static/css/main.c1ce3ff8.css.map",
-    "main.629a1dba.js.map": "/maquina-aleatoria/static/js/main.629a1dba.js.map"
+    "main.f0c32ac4.js.map": "/maquina-aleatoria/static/js/main.f0c32ac4.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ce3ff8.css",
-    "static/js/main.629a1dba.js"
+    "static/js/main.f0c32ac4.js"
   ]
 }
